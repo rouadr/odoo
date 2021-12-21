@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?><rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100">
+                <rsm:ExchangedDocumentContext>
+                    <ram:GuidelineSpecifiedDocumentContextParameter>
+                        <ram:ID>urn:cen.eu:en16931:2017</ram:ID>
+                    </ram:GuidelineSpecifiedDocumentContextParameter>
+                </rsm:ExchangedDocumentContext>
+                <rsm:ExchangedDocument>
+                    <ram:ID>FAC/2021/00002</ram:ID>
+                    <ram:TypeCode>380</ram:TypeCode>
+                    <ram:IssueDateTime>
+                        <udt:DateTimeString format="102">20211221</udt:DateTimeString>
+                    </ram:IssueDateTime>
+                    <ram:IncludedNote>
+                        <ram:Content><p>Terms &amp; Conditions: <a href="http://localhost:8069/terms" target="_blank" rel="noreferrer noopener">http://localhost:8069/terms</a></p></ram:Content>
+                    </ram:IncludedNote>
+                </rsm:ExchangedDocument>
+                <rsm:SupplyChainTradeTransaction>
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>1</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+                    <ram:SpecifiedTradeProduct>
+                        <ram:Name>pantalon chanvre</ram:Name>
+                    </ram:SpecifiedTradeProduct>
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="TND">3500000.000</ram:ChargeAmount>
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>50000.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+                    <ram:SpecifiedLineTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="TND">3500000.000</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+                </ram:IncludedSupplyChainTradeLineItem>
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>2</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+                    <ram:SpecifiedTradeProduct>
+                        <ram:Name>pull</ram:Name>
+                    </ram:SpecifiedTradeProduct>
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="TND">1500000.000</ram:ChargeAmount>
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>50000.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+                    <ram:SpecifiedLineTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="TND">1500000.000</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+                </ram:IncludedSupplyChainTradeLineItem>
+                <ram:IncludedSupplyChainTradeLineItem>
+                    <ram:AssociatedDocumentLineDocument>
+                        <ram:LineID>3</ram:LineID>
+                    </ram:AssociatedDocumentLineDocument>
+                    <ram:SpecifiedTradeProduct>
+                        <ram:Name>écharpe </ram:Name>
+                    </ram:SpecifiedTradeProduct>
+                    <ram:SpecifiedLineTradeAgreement>
+                        <ram:GrossPriceProductTradePrice>
+                            <ram:ChargeAmount currencyID="TND">250000.000</ram:ChargeAmount>
+                        </ram:GrossPriceProductTradePrice>
+                    </ram:SpecifiedLineTradeAgreement>
+                    <ram:SpecifiedLineTradeDelivery>
+                        <ram:BilledQuantity>10000.0</ram:BilledQuantity>
+                    </ram:SpecifiedLineTradeDelivery>
+                    <ram:SpecifiedLineTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradeSettlementLineMonetarySummation>
+                            <ram:LineTotalAmount currencyID="TND">250000.000</ram:LineTotalAmount>
+                        </ram:SpecifiedTradeSettlementLineMonetarySummation>
+                    </ram:SpecifiedLineTradeSettlement>
+                </ram:IncludedSupplyChainTradeLineItem>
+                    <ram:ApplicableHeaderTradeAgreement>
+                        <ram:SellerTradeParty>
+                <ram:Name>R&amp;D</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>R&amp;D</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>51503443</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">rouadridi532@gmail.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:PostcodeCode>2036</ram:PostcodeCode>
+                    <ram:LineOne>Narcisse</ram:LineOne>
+                    <ram:LineTwo>7221</ram:LineTwo>
+                    <ram:CityName>Soukra</ram:CityName>
+                    <ram:CountryID>TN</ram:CountryID>
+                </ram:PostalTradeAddress>
+                        </ram:SellerTradeParty>
+                        <ram:BuyerTradeParty>
+                <ram:Name>R&amp;D</ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>R&amp;D</ram:PersonName>
+                    <ram:TelephoneUniversalCommunication>
+                        <ram:CompleteNumber>775643214</ram:CompleteNumber>
+                    </ram:TelephoneUniversalCommunication>
+                    <ram:EmailURIUniversalCommunication>
+                        <ram:URIID schemeID="SMTP">rouadridi532@gmail.com</ram:URIID>
+                    </ram:EmailURIUniversalCommunication>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                    <ram:LineOne>Shahabandar</ram:LineOne>
+                    <ram:LineTwo>Al Islah</ram:LineTwo>
+                    <ram:CityName>Tanjin</ram:CityName>
+                    <ram:CountryID>TN</ram:CountryID>
+                </ram:PostalTradeAddress>
+                        </ram:BuyerTradeParty>
+                        <ram:BuyerOrderReferencedDocument>
+                            <ram:IssuerAssignedID>FAC/2021/00002: FAC/2021/00002</ram:IssuerAssignedID>
+                        </ram:BuyerOrderReferencedDocument>
+                    </ram:ApplicableHeaderTradeAgreement>
+                    <ram:ApplicableHeaderTradeDelivery>
+                        <ram:ShipToTradeParty>
+                <ram:Name>SMD </ram:Name>
+                <ram:DefinedTradeContact>
+                    <ram:PersonName>SMD </ram:PersonName>
+                </ram:DefinedTradeContact>
+                <ram:PostalTradeAddress>
+                </ram:PostalTradeAddress>
+                        </ram:ShipToTradeParty>
+                    </ram:ApplicableHeaderTradeDelivery>
+                    <ram:ApplicableHeaderTradeSettlement>
+                            <ram:ApplicableTradeTax>
+                                <ram:CalculatedAmount currencyID="TND">787500.000</ram:CalculatedAmount>
+                                <ram:BasisAmount currencyID="TND">5250000.000</ram:BasisAmount>
+                                <ram:RateApplicablePercent>15.0</ram:RateApplicablePercent>
+                            </ram:ApplicableTradeTax>
+                        <ram:SpecifiedTradePaymentTerms>
+                            <ram:DueDateDateTime>
+                                <udt:DateTimeString>20211221</udt:DateTimeString>
+                            </ram:DueDateDateTime>
+                        </ram:SpecifiedTradePaymentTerms>
+                        <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                            <ram:LineTotalAmount currencyID="TND">5250000.000</ram:LineTotalAmount>
+                            <ram:TaxBasisTotalAmount currencyID="TND">5250000.000</ram:TaxBasisTotalAmount>
+                            <ram:TaxTotalAmount currencyID="TND">787500.000</ram:TaxTotalAmount>
+                            <ram:GrandTotalAmount currencyID="TND">6037500.000</ram:GrandTotalAmount>
+                            <ram:TotalPrepaidAmount currencyID="TND">0.000</ram:TotalPrepaidAmount>
+                            <ram:DuePayableAmount currencyID="TND">6037500.000</ram:DuePayableAmount>
+                        </ram:SpecifiedTradeSettlementHeaderMonetarySummation>
+                    </ram:ApplicableHeaderTradeSettlement>
+                </rsm:SupplyChainTradeTransaction>
+            </rsm:CrossIndustryInvoice>
